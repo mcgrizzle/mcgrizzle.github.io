@@ -1,7 +1,60 @@
-<h1>Monster Helix Inc.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Helix Inc.</title>
+    <style>
+        body {
+            /* Dark theme background and text colors */
+            background-color: #121212; /* Very dark gray background */
+            color: #e0e0e0; /* Light gray text for contrast */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Full height of the viewport */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1; /* Take up remaining vertical space */
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #4da6ff; /* A bright, visible color for links */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #80bfff; /* Slightly lighter color on hover */
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1e1e1e; /* Slightly lighter dark gray for footer background */
+            font-size: 0.9em;
+        }
+    </style>
+</head>
 <body>
-  
+    <div class="container">
+        <h1>Monster Helix Inc.</h1>
+        <p>We are currently working on a new strategy coming in 2026.</p>
+		<p>Check out Survive the Rift on Steam</p>
+		<iframe src="https://store.steampowered.com/widget/863970/" frameborder="0" width="646" height="190"></iframe>
+    </div>
+    <footer>
+        <p>&copy; 2026 Monster Helix Inc. All rights reserved.</p>
+    </footer>
 </body>
-<footer>
-<iframe src="https://store.steampowered.com/widget/863970/" frameborder="0" width="646" height="190"></iframe>
-</footer>
+</html>
